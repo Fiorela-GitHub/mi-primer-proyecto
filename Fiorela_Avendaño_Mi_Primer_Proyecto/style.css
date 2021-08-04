@@ -1,0 +1,90 @@
+
+body {
+ background-color:paleturquoise;
+ background-size: 100%;
+ opacity: 90%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 80pt;
+  text-shadow: 10px 3px 2px rgba(133, 131, 197, 0.7);
+  font-family: 'Tangerine';
+  letter-spacing: 12px; 
+  
+}
+
+h2 {
+  text-align: center;
+  font-size: 40pt;
+  color:navy;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  letter-spacing: 3px; 
+  line-height: 10%;
+}
+
+h3 {
+  font-size: 50px;
+  text-align: left;
+}
+
+h4 {
+  font-size: 40px;
+  color: lightslategrey;
+}
+.a { 
+  background-color:moccasin; opacity: 0.8;
+  text-align: center;
+  width: 65%;
+  font-size: 35px;
+  font-family:'Times New Roman', Times, serif;
+  letter-spacing: 2px; 
+}
+
+.b { 
+  font-size: 30px;
+  font-family:'Times New Roman', Times, serif;
+  background-color:olivedrab; opacity: 0.8;
+  text-align: center;
+  width: 65%;
+  font-size: 35px;
+}
+
+.c { 
+  font-size: 30px;
+  font-family:'Times New Roman', Times, serif;
+  background-color:cadetblue; opacity: 0.8;
+  text-align: center;
+  width: 65%;
+  font-size: 35px;
+}
+
+div.a {
+  padding-top: 30px;
+  padding-bottom: 40px;
+  padding-right: 50px;
+  padding-left: 40px;
+  background-color: azure;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 5px;
+  background:maroon url("gradient.gif") bottom left repeat-x;
+  color: #fff;
+  text-align: center;
+  font-style: italic;
+  font-size: 30px;
+}
+
+td, th {
+  background: #fff;
+  color: #000;
+}
+
+.caja{
+  background-color:palegreen;
+  height: 80px;
+  font-size: 30px; 
+  vertical-align: top;
+}
