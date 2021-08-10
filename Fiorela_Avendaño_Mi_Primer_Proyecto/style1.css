@@ -1,0 +1,25 @@
+body {
+    background-image: url("imagenes/body1.jpg");
+    background-size: 100%;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 5px;
+    background:maroon url("gradient.gif") bottom left repeat-x;
+    color: whitesmoke;
+    text-align: center;
+    font-style: italic;
+    font-size: 30px;
+}
+td, th {
+background:whitesmoke;
+color: #000;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h4 {
+    font-size: large;
+}

@@ -1,8 +1,8 @@
 
 body {
- background-color:paleturquoise;
- background-size: 100%;
- opacity: 90%;
+ background-image: url("imagenes/body.jpg");
+ background-repeat: repeat;
+
 }
 
 h1 {
@@ -10,17 +10,16 @@ h1 {
   font-size: 80pt;
   text-shadow: 10px 3px 2px rgba(133, 131, 197, 0.7);
   font-family: 'Tangerine';
-  letter-spacing: 12px; 
+  letter-spacing: 15px; 
   
 }
 
 h2 {
   text-align: center;
   font-size: 40pt;
-  color:navy;
+  color:mediumblue;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  letter-spacing: 3px; 
-  line-height: 10%;
+  letter-spacing: 5px; 
 }
 
 h3 {
@@ -28,10 +27,6 @@ h3 {
   text-align: left;
 }
 
-h4 {
-  font-size: 40px;
-  color: lightslategrey;
-}
 .a { 
   background-color:moccasin; opacity: 0.8;
   text-align: center;
@@ -39,6 +34,7 @@ h4 {
   font-size: 35px;
   font-family:'Times New Roman', Times, serif;
   letter-spacing: 2px; 
+  margin: 20px;
 }
 
 .b { 
@@ -48,6 +44,7 @@ h4 {
   text-align: center;
   width: 65%;
   font-size: 35px;
+  margin: 20px;
 }
 
 .c { 
@@ -56,35 +53,35 @@ h4 {
   background-color:cadetblue; opacity: 0.8;
   text-align: center;
   width: 65%;
-  font-size: 35px;
+  font-size: 35px; 
+  margin: 20px;
 }
 
 div.a {
-  padding-top: 30px;
-  padding-bottom: 40px;
-  padding-right: 50px;
-  padding-left: 40px;
   background-color: azure;
+  width: 800px;
+  border: 15px;
+  padding: 50px;
+  margin: 20px;
 }
 
-table {
-  border-collapse: separate;
-  border-spacing: 5px;
-  background:maroon url("gradient.gif") bottom left repeat-x;
-  color: #fff;
+a:link, a:visited {
+  background-color:mediumblue;
+  color: white;
+  border: 2px solid white;
+  padding: 10px 40px;
   text-align: center;
-  font-style: italic;
-  font-size: 30px;
+  text-decoration: none;
+  display: inline-block;
 }
 
-td, th {
-  background: #fff;
-  color: #000;
+a:hover, a:active {
+  background-color:lightblue;
+  color: black;
 }
+#boton {
+  background-color:grey;
+  color: white;
+  border: 2px solid white;
 
-.caja{
-  background-color:palegreen;
-  height: 80px;
-  font-size: 30px; 
-  vertical-align: top;
 }

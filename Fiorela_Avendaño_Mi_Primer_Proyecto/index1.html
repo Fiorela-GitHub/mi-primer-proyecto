@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinturas</title>
+</head>
+<body>
+<style>
+
+h2 {
+    font-family: monospace;
+    font-size: x-large;
+}
+body {
+    background-color: gainsboro;
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="Imagenes/122686394_212582846887686_8776065874314903777_n.jpg">
+      <img src="Imagenes/122686394_212582846887686_8776065874314903777_n.jpg" alt="foto1" width="600" height="400">
+    </a>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="Imagenes/142111628_263715205107783_4616801436589356433_n.jpg">
+      <img src="Imagenes/142111628_263715205107783_4616801436589356433_n.jpg" width="600" height="400">
+    </a>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="Imagenes/145057254_267141421431828_1373570815919205726_n.jpg">
+      <img src="Imagenes/145057254_267141421431828_1373570815919205726_n.jpg" width="600" height="400">
+    </a>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="Imagenes/82226971_131860318293273_767109063468122112_n.jpg">
+      <img src="Imagenes/82226971_131860318293273_767109063468122112_n.jpg" width="600" height="400">
+    </a>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+<div style="padding:6px;">
+
+</body>
+</html>
